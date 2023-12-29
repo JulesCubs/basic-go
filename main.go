@@ -30,4 +30,37 @@ func main() {
 	areaCuadrado := baseCuadrado * baseCuadrado
 
 	fmt.Println("areaCuadrado:", areaCuadrado)
+
+	x := 10
+	y := 50
+
+	// Operaciones aritmeticos
+
+	//Suma
+	result := x + y
+	fmt.Println("Suma:", result)
+
+	// Resta
+	result = y - x
+	fmt.Println("Resta:", result)
+
+	// Multiplicación
+	result = y * x
+	fmt.Println("Multiplación:", result)
+
+	// Resta
+	result = y / x
+	fmt.Println("División:", result)
+
+	// Modulo
+	result = y % x
+	fmt.Println("Modulo:", result)
+
+	// Incremental
+	x++
+	fmt.Println("Incremental:", x)
+
+	// Decremental
+	x--
+	fmt.Println("Decremental:", x)
 }
