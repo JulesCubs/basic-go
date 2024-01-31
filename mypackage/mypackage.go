@@ -22,3 +22,23 @@ func PrintMessage(text string) {
 func printMessagePrivate(text string) {
 	fmt.Println(text)
 }
+
+type Pc struct {
+	ram   int
+	disk  int
+	brand string
+}
+
+func (mypc *Pc) LoadSpecs(ram int, disk int, brand string) {
+	mypc.ram = ram
+	mypc.disk = disk
+	mypc.brand = brand
+}
+
+func (mypc Pc) Ping() {
+	fmt.Println(mypc, "pong")
+}
+
+func (mypc *Pc) DuplicateRAM() {
+	mypc.ram = mypc.ram * 2
+}
