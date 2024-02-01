@@ -42,3 +42,8 @@ func (mypc Pc) Ping() {
 func (mypc *Pc) DuplicateRAM() {
 	mypc.ram = mypc.ram * 2
 }
+
+// Stringers
+func (mypc Pc) String() string {
+	return fmt.Sprintf("Tengo %d GB RAM, %d GB Disco Duro, la marca es %s", mypc.ram, mypc.disk, mypc.brand)
+}
