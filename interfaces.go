@@ -31,10 +31,10 @@ func calcular(f figura2D) {
 
 func main() {
 	mySquare := square{base: 2}
-	myRectengle := rectangle{base: 2, altura: 4}
+	myRectangle := rectangle{base: 2, altura: 4}
 
 	calcular(mySquare)
-	calcular(myRectengle)
+	calcular(myRectangle)
 
 	//Lista de interfaces
 	myInterface := []interface{}{"Hola", 12, 4.90}

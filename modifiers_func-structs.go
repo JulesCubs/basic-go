@@ -16,7 +16,7 @@ func main() {
 	fmt.Println(myCar)
 
 	// Esta no es accesible porque es privada
-	// var myOtherCar pk.CarPrivate
+	// var myOtherCar pk.carPrivate
 	// myCar.Brand = "Lotus"
 	// myCar.Year = 2019
 

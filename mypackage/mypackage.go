@@ -2,7 +2,7 @@ package mypackage
 
 import "fmt"
 
-// Public car acceso publico, las mayusculas iniciales tambien indican que es publico
+// CarPublic es de acceso publico, las mayusculas iniciales tambien indican que es publico
 type CarPublic struct {
 	Brand string
 	Year  int
